@@ -1,6 +1,6 @@
 Vamos ver como nos sentimos com uma nova sintaxe.
 
-Nesse exercício queremos preencher o nosso array `$result` com números de 0 a 10. 
+Nesse exercício queremos preencher o nosso array `$resultado` com números de 0 a 10. 
 Os números devem ser adicionados automaticamente nas posições de 0 a 10 :wink:
 
 Obviamente não queremos que você preencha o array manualmente, por isso podemos usar um `for`
