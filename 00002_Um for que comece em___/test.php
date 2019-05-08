@@ -21,7 +21,7 @@ public function testDescriptionExample(): void {
   
   $conta9 = substr_count($solucao, "9");
   
-  $this->assertTrue($conat9 == 0, "Não escreva os números manualmente, tente utilizar um for!");
+  $this->assertTrue($conta9 == 0, "Não escreva os números manualmente, tente utilizar um for!");
 }
 
 private /*...content...*/
