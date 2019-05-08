@@ -3,7 +3,7 @@ public function testDescriptionExample(): void {
   
   $resultados = $this->loop();
   
-  $this->assertTrue(count($resultados) === 5, 'O array não tem 5 elementos');
+  $this->assertTrue(count($resultados) === 6, 'O array não tem 6 elementos');
  
   $i = 5;
   $numeros = true;
