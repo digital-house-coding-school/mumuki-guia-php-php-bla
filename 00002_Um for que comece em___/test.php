@@ -3,17 +3,16 @@ public function testDescriptionExample(): void {
   
   $resultados = $this->loop();
   
-  $this->assertTrue(count($resultados) === 6, 'O array não tem 6 elementos');
+  $this->assertTrue(count($resultados) === 5, 'O array não tem 5 elementos');
  
+  $i = 5;
   $numeros = true;
   foreach ($resultados as $key => $value) {
-    if ($value == $key + 5) {
-      $numeros = false;
-      break;
-    }
+    $numeros = $numeros && $resultado == $i;
+    $i++;
   }
   
-  $this->assertTrue($numeros, "O array não tem números de 5 a 10");
+  $this->assertTrue($numeros, "El array no tiene los numeros del 5 al 10");
   
   $cantFors = substr_count($sol, "for");
   
