@@ -13,7 +13,7 @@ public function testDescriptionExample(): void {
     }
   }
   
-  $this->assertTrue($numeros, "El array no tiene los numeros del 5 al 10");
+  $this->assertTrue($numeros, "O array não contém números de 5 a 10");
   
   $contaFors = substr_count($solucao, "for");
   
