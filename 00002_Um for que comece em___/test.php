@@ -7,7 +7,7 @@ public function testDescriptionExample(): void {
  
   $numeros = true;
   foreach ($resultados as $key => $value) {
-    if ($key + 5 == $value) {
+    if ($key + 5 != $value) {
       $numeros = false;
       break;
     }
