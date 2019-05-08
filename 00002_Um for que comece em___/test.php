@@ -1,26 +1,27 @@
 public function testDescriptionExample(): void {
-  $sol = '/*...content...*/';
+  $solucao = '/*...content...*/';
   
   $resultados = $this->loop();
   
   $this->assertTrue(count($resultados) === 6, 'O array não tem 6 elementos');
  
-  $i = 5;
   $numeros = true;
   foreach ($resultados as $key => $value) {
-    $numeros = $numeros && $resultado == $i;
-    $i++;
+    if ($key + 5 == $value) {
+      $numeros = false;
+      break;
+    }
   }
   
   $this->assertTrue($numeros, "El array no tiene los numeros del 5 al 10");
   
-  $cantFors = substr_count($sol, "for");
+  $contaFors = substr_count($solucao, "for");
   
-  $this->assertTrue($cantFors > 0, "Parecería que no escribiste ningún for...");
+  $this->assertTrue($contaFors > 0, "Parece que você não utilizou nenhum for :(, tente resolver utilizando pelo menos um for!");
   
-  $cant9 = substr_count($sol, "9");
+  $conta9 = substr_count($solucao, "9");
   
-  $this->assertTrue($cant9 == 0, "No deberías escribir los números a mano...");
+  $this->assertTrue($conat9 == 0, "Não escreva os números manualmente, tente utilizar um for!");
 }
 
 private /*...content...*/
