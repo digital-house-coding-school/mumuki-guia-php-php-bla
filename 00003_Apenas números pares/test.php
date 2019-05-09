@@ -7,7 +7,7 @@ public function testDescriptionExample(): void {
 
   $arrayValido = true;
   foreach ($resultado as $value) {
-    if ($value % 2 != 0 || $value >= 20){
+    if ($value % 2 != 0 || $value > 20){
       $arrayValido = false;
       break;
     }
