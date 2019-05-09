@@ -1,7 +1,7 @@
 public function testDescriptionExample(): void {
   $solucao = '/*...content...*/';
 
-  $resultado = $this->bucles();
+  $resultado = $this->loopPar();
 
   $this->assertTrue(count($resultado) === 10, 'O array não tem 10 elementos');
 
