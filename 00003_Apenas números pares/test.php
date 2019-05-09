@@ -6,8 +6,8 @@ public function testDescriptionExample(): void {
   $this->assertTrue(count($resultado) === 10, 'O array não tem 10 elementos');
 
   $arrayValido = true;
-  for ($i = 2; $i <= 20; $i += 2) {
-    if ($resultado[$i] != $i) {
+  foreach ($resultado as $value) {
+    if ($value % 2 != 0) {
       $arrayValido = false;
       break;
     }
