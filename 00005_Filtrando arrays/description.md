@@ -1,8 +1,8 @@
-Desta vez também estamos recebendo um array chamada `$unArray`, no entanto, se olharmos para` $ result`, também é uma matriz
+Desta vez também estamos recebendo um array como parâmetro chamado `$umArray`, no entanto, `$resultado` também é um array.
 
 Por que isso?
 
-Porque `$ result` deve ter apenas os números pares recebidos em` $ unArray`.
+Porque `$resultado` deve ter apenas os números pares de `$umArray`.
 Em outras palavras, vamos filtrar os números pares!
 
-Você não pode pensar em como? Não sabe como perguntar se um número é par? Veja abaixo: point_down:
+Não imagina como? Não sabe como perguntar se um número é par? Veja abaixo :point_down:
