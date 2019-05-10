@@ -1,4 +1,4 @@
-public function testDescriptionExample(): void {
+public function testResultado(): void {
     $solucao = '/*...content...*/';
 
     $array1 = [10, 20, 30];
