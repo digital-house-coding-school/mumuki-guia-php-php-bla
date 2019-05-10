@@ -1,5 +1,5 @@
 function filtraArray($umArray) {
-    $resultado = 0;
+    $resultado = [];
     
     // Escreva sua solução aqui...
     
