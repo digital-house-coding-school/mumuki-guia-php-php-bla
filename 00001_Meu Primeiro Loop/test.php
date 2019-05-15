@@ -3,7 +3,7 @@ public function testResultado(): void {
   
   $resultados = $this->loop();
   
-  $this->assertTrue(count($resultados) === 11, 'Seu array não tem 11 elementos');
+  $this->assertTrue(count($resultados) === 10, 'Seu array não tem 11 elementos');
  
   $numeros = true;
   
