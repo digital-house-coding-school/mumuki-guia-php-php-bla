@@ -1,5 +1,5 @@
 public function testDescriptionExample(): void {
-  $sol = '/*...content...*/';
+  $solucao = '/*...content...*/';
   
   $resultados = $this->loop();
   
