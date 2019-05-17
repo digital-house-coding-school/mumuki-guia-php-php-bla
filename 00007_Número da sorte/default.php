@@ -1,3 +1,3 @@
 function numeroDaSorte($dado) {
-  
+  // Escreva sua solução aqui...
 }
