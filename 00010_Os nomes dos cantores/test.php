@@ -32,7 +32,7 @@ public function testDescriptionResultado(): void {
     $this->assertTrue($funcionando, "A quantidade de nomes está correta, porém os nomes estão errados :(");
 
     $this->assertTrue(substr_count($solucao, "foreach") > 0, "Você precisa utilizar um foreach!");
-    $this->assertTrue(substr_count($solucao, "for ") == 0  || substr_count($solucao, "for(") == 0, "Parece que você tentou utilizar um for :(, tente utilizar um foreach :)");
+    $this->assertTrue((substr_count($solucao, "for ") + substr_count($solucao, "for(")) == 0, "Parece que você tentou utilizar um for :(, tente utilizar um foreach :)");
   }
 
   private /*...content...*/
