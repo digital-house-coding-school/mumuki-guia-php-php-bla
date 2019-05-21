@@ -1,0 +1,3 @@
+function debug($bug) { 
+  // Escreva sua solução aqui...
+}
