@@ -16,7 +16,7 @@ Agora, vamos manipular os números do array `$dados`. Nosso **while** seria pare
   }
 ```
 
-E essa POSIÇÃO? Como em um **for** podemos ter a variável `$i` que faz um índice da posição do array.
+E essa POSIÇÃO? Como em um **for** podemos ter a variável `$i` que traz um índice da posição do array.
 
 Podemos escrever assim:
 
